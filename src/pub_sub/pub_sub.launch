@@ -1,0 +1,9 @@
+<launch>
+	<group ns='pubs'>
+		<node pkg='pub_sub' name='talker' type='pub_sub node'/>
+	</group>
+
+	<group ns='subs'>
+		<node pkg='pub_sub' name='listener' type='pub_sub node'/>
+	</group>
+</launch>
